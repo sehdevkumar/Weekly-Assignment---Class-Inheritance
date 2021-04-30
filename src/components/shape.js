@@ -1,7 +1,7 @@
 
 
- class Shape{
-      var color="";
+ module.exports class Shape{
+     var color="";
      function drawShape(){
          color="red";
      }
@@ -11,5 +11,3 @@
    }
 
 }
-
-module.exports = Shape;
