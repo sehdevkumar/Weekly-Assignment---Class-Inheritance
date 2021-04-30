@@ -1,15 +1,14 @@
-// declare class
 
-// export class using module.exports
 
 class Shape{
-
+    var color="";
+    var area = 0;
      function drawShape(color){
-        return color;
+        this.color = color;
      }
 
    function calculateArea(r){
-      return r*r;
+       area = r*r;
    }
 
 }
