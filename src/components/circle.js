@@ -2,7 +2,7 @@
 var Shape = require('./shape.js');
 // declare class
 
-class Circle extends Shape{
+module.exports = class Circle extends Shape{
      
      function calculateArea(){
        
@@ -10,4 +10,4 @@ class Circle extends Shape{
   
 }
 
-module.exports = Circle;
+
