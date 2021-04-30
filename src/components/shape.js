@@ -4,11 +4,11 @@
     var color="";
     var area = 0;
      function drawShape(color){
-        this.color = color;
+         color="red";
      }
 
    function calculateArea(r){
-       area = r*r;
+      return  r*r;
    }
 
 }
