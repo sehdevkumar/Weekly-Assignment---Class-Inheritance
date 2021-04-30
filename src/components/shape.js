@@ -1,8 +1,8 @@
 
 
  class Shape{
-    var color="";
-     function drawShape(color){
+      var color="";
+     function drawShape(){
          color="red";
      }
 
