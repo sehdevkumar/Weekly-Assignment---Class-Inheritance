@@ -1,6 +1,6 @@
 
 
-export class Shape{
+ class Shape{
     var color="";
     var area = 0;
      function drawShape(color){
@@ -12,3 +12,5 @@ export class Shape{
    }
 
 }
+
+module.exports.Shape = Shape;
