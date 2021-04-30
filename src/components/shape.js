@@ -1,6 +1,6 @@
 
 
-class Shape{
+export class Shape{
     var color="";
     var area = 0;
      function drawShape(color){
