@@ -2,15 +2,14 @@
 
  class Shape{
     var color="";
-    var area = 0;
      function drawShape(color){
          color="red";
      }
 
-   function calculateArea(r){
-      return  r*r;
+   function calculateArea(){
+     
    }
 
 }
 
-module.exports.Shape = Shape;
+module.exports = Shape;
