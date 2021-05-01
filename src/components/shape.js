@@ -1,13 +1,13 @@
 
 
-export default class Shape{
-     var color="";
-     function drawShape(){
-         color="red";
-     }
+// export default class Shape{
+//      var color="";
+//      function drawShape(){
+//          color="red";
+//      }
 
-   function calculateArea(){
+//    function calculateArea(){
      
-   }
+//    }
 
-}
+// }
