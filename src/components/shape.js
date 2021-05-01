@@ -1,6 +1,6 @@
 
 
- module.exports class Shape{
+export default class Shape{
      var color="";
      function drawShape(){
          color="red";
